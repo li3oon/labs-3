@@ -1,12 +1,20 @@
 use option_2;
 
-drop table participants;
+select *from horse_owner;
+select *from horse;
+select *from jockey;
+select *from competition;
+select *from check_in;
+select *from participants;
+select *from pair;
+
+/*drop table participants;
 drop table pair;
 drop table check_in;
 drop table competition;
 drop table jockey;
 drop table horse;
-drop table horse_owner;
+drop table horse_owner;*/
 
 /*delete from participants;
 delete from pair;

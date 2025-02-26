@@ -1,4 +1,4 @@
-SELECT        participants.time_participants AS [Время пары (до 30 сек)], participants.id_pair AS [Номер пары], jockey.name_jockey AS Жокей, horse.name_horse AS Лошадь, participants.id_check_in AS [Номер заезда], 
+SELECT        participants.time_participants AS [Время пары (до 31 сек)], participants.id_pair AS [Номер пары], jockey.name_jockey AS Жокей, horse.name_horse AS Лошадь, participants.id_check_in AS [Номер заезда], 
                          competition.name_competition AS Состязание, competition.date_competition AS [Дата состязания]
 FROM            participants INNER JOIN
                          pair ON participants.id_pair = pair.id INNER JOIN

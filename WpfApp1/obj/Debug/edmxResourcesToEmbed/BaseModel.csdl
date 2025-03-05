@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="option_2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="check_in">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_competition" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="competition" Relationship="Self.FK__check_in__id_com__7B5B524B" FromRole="check_in" ToRole="competition" />
+    <NavigationProperty Name="participants" Relationship="Self.FK__participa__id_ch__02084FDA" FromRole="check_in" ToRole="participants" />
+  </EntityType>
+  <EntityType Name="competition">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name_competition" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="date_competition" Type="DateTime" Precision="0" />
+    <Property Name="time_competition" Type="Time" Precision="0" />
+    <Property Name="hippodrome" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="check_in" Relationship="Self.FK__check_in__id_com__7B5B524B" FromRole="competition" ToRole="check_in" />
+  </EntityType>
+  <EntityType Name="horse">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_owner" Type="Int32" Nullable="false" />
+    <Property Name="name_horse" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="sex" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="age" Type="Int32" />
+    <NavigationProperty Name="horse_owner" Relationship="Self.FK__horse__id_owner__71D1E811" FromRole="horse" ToRole="horse_owner" />
+    <NavigationProperty Name="pairs" Relationship="Self.FK__pair__id_horse__7E37BEF6" FromRole="horse" ToRole="pair" />
+  </EntityType>
+  <EntityType Name="horse_owner">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name_owner" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="adress" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="horses" Relationship="Self.FK__horse__id_owner__71D1E811" FromRole="horse_owner" ToRole="horse" />
+  </EntityType>
+  <EntityType Name="jockey">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name_jockey" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="adress" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="age" Type="Int32" />
+    <Property Name="rating" Type="Decimal" Precision="3" Scale="1" />
+    <NavigationProperty Name="pairs" Relationship="Self.FK__pair__id_jockey__7F2BE32F" FromRole="jockey" ToRole="pair" />
+  </EntityType>
+  <EntityType Name="pair">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_horse" Type="Int32" Nullable="false" />
+    <Property Name="id_jockey" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="horse" Relationship="Self.FK__pair__id_horse__7E37BEF6" FromRole="pair" ToRole="horse" />
+    <NavigationProperty Name="jockey" Relationship="Self.FK__pair__id_jockey__7F2BE32F" FromRole="pair" ToRole="jockey" />
+    <NavigationProperty Name="participants" Relationship="Self.FK__participa__id_pa__01142BA1" FromRole="pair" ToRole="participants" />
+  </EntityType>
+  <EntityType Name="participant">
+    <Key>
+      <PropertyRef Name="id_pair" />
+      <PropertyRef Name="id_check_in" />
+    </Key>
+    <Property Name="id_pair" Type="Int32" Nullable="false" />
+    <Property Name="id_check_in" Type="Int32" Nullable="false" />
+    <Property Name="time_participants" Type="Decimal" Precision="3" Scale="1" />
+    <Property Name="place_participants" Type="Int32" />
+    <NavigationProperty Name="check_in" Relationship="Self.FK__participa__id_ch__02084FDA" FromRole="participants" ToRole="check_in" />
+    <NavigationProperty Name="pair" Relationship="Self.FK__participa__id_pa__01142BA1" FromRole="participants" ToRole="pair" />
+  </EntityType>
+  <Association Name="FK__check_in__id_com__7B5B524B">
+    <End Role="competition" Type="Self.competition" Multiplicity="1" />
+    <End Role="check_in" Type="Self.check_in" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="competition">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="check_in">
+        <PropertyRef Name="id_competition" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__participa__id_ch__02084FDA">
+    <End Role="check_in" Type="Self.check_in" Multiplicity="1" />
+    <End Role="participants" Type="Self.participant" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="check_in">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="participants">
+        <PropertyRef Name="id_check_in" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__horse__id_owner__71D1E811">
+    <End Role="horse_owner" Type="Self.horse_owner" Multiplicity="1" />
+    <End Role="horse" Type="Self.horse" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="horse_owner">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="horse">
+        <PropertyRef Name="id_owner" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__pair__id_horse__7E37BEF6">
+    <End Role="horse" Type="Self.horse" Multiplicity="1" />
+    <End Role="pair" Type="Self.pair" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="horse">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="pair">
+        <PropertyRef Name="id_horse" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__pair__id_jockey__7F2BE32F">
+    <End Role="jockey" Type="Self.jockey" Multiplicity="1" />
+    <End Role="pair" Type="Self.pair" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="jockey">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="pair">
+        <PropertyRef Name="id_jockey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__participa__id_pa__01142BA1">
+    <End Role="pair" Type="Self.pair" Multiplicity="1" />
+    <End Role="participants" Type="Self.participant" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="pair">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="participants">
+        <PropertyRef Name="id_pair" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="option_2Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="check_in" EntityType="Self.check_in" />
+    <EntitySet Name="competitions" EntityType="Self.competition" />
+    <EntitySet Name="horses" EntityType="Self.horse" />
+    <EntitySet Name="horse_owner" EntityType="Self.horse_owner" />
+    <EntitySet Name="jockeys" EntityType="Self.jockey" />
+    <EntitySet Name="pairs" EntityType="Self.pair" />
+    <EntitySet Name="participants" EntityType="Self.participant" />
+    <AssociationSet Name="FK__check_in__id_com__7B5B524B" Association="Self.FK__check_in__id_com__7B5B524B">
+      <End Role="competition" EntitySet="competitions" />
+      <End Role="check_in" EntitySet="check_in" />
+    </AssociationSet>
+    <AssociationSet Name="FK__participa__id_ch__02084FDA" Association="Self.FK__participa__id_ch__02084FDA">
+      <End Role="check_in" EntitySet="check_in" />
+      <End Role="participants" EntitySet="participants" />
+    </AssociationSet>
+    <AssociationSet Name="FK__horse__id_owner__71D1E811" Association="Self.FK__horse__id_owner__71D1E811">
+      <End Role="horse_owner" EntitySet="horse_owner" />
+      <End Role="horse" EntitySet="horses" />
+    </AssociationSet>
+    <AssociationSet Name="FK__pair__id_horse__7E37BEF6" Association="Self.FK__pair__id_horse__7E37BEF6">
+      <End Role="horse" EntitySet="horses" />
+      <End Role="pair" EntitySet="pairs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__pair__id_jockey__7F2BE32F" Association="Self.FK__pair__id_jockey__7F2BE32F">
+      <End Role="jockey" EntitySet="jockeys" />
+      <End Role="pair" EntitySet="pairs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__participa__id_pa__01142BA1" Association="Self.FK__participa__id_pa__01142BA1">
+      <End Role="pair" EntitySet="pairs" />
+      <End Role="participants" EntitySet="participants" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

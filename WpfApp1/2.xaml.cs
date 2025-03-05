@@ -23,6 +23,16 @@ namespace WpfApp1
         public _2()
         {
             InitializeComponent();
+            DGridhorses.ItemsSource = option_2Entities.GetContext().horses.ToList();
+
+        }
+        private void btn4(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new _1());
+        }
+        private void btn5(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

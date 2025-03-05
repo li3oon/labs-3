@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище option_2ModelContainer" CdmEntityContainer="option_2Entities">
+    <EntitySetMapping Name="check_in">
+      <EntityTypeMapping TypeName="option_2Model.check_in">
+        <MappingFragment StoreEntitySet="check_in">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_competition" ColumnName="id_competition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="competitions">
+      <EntityTypeMapping TypeName="option_2Model.competition">
+        <MappingFragment StoreEntitySet="competition">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name_competition" ColumnName="name_competition" />
+          <ScalarProperty Name="date_competition" ColumnName="date_competition" />
+          <ScalarProperty Name="time_competition" ColumnName="time_competition" />
+          <ScalarProperty Name="hippodrome" ColumnName="hippodrome" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="horses">
+      <EntityTypeMapping TypeName="option_2Model.horse">
+        <MappingFragment StoreEntitySet="horse">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_owner" ColumnName="id_owner" />
+          <ScalarProperty Name="name_horse" ColumnName="name_horse" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+          <ScalarProperty Name="age" ColumnName="age" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="horse_owner">
+      <EntityTypeMapping TypeName="option_2Model.horse_owner">
+        <MappingFragment StoreEntitySet="horse_owner">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name_owner" ColumnName="name_owner" />
+          <ScalarProperty Name="adress" ColumnName="adress" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="jockeys">
+      <EntityTypeMapping TypeName="option_2Model.jockey">
+        <MappingFragment StoreEntitySet="jockey">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name_jockey" ColumnName="name_jockey" />
+          <ScalarProperty Name="adress" ColumnName="adress" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="rating" ColumnName="rating" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pairs">
+      <EntityTypeMapping TypeName="option_2Model.pair">
+        <MappingFragment StoreEntitySet="pair">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_horse" ColumnName="id_horse" />
+          <ScalarProperty Name="id_jockey" ColumnName="id_jockey" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="participants">
+      <EntityTypeMapping TypeName="option_2Model.participant">
+        <MappingFragment StoreEntitySet="participants">
+          <ScalarProperty Name="id_pair" ColumnName="id_pair" />
+          <ScalarProperty Name="id_check_in" ColumnName="id_check_in" />
+          <ScalarProperty Name="time_participants" ColumnName="time_participants" />
+          <ScalarProperty Name="place_participants" ColumnName="place_participants" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

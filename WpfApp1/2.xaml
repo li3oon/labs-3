@@ -9,6 +9,26 @@
       Title="_2">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <DataGrid x:Name="DGridhorses" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Кличка лошади" Binding="{Binding name_horse}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Владелец" Binding="{Binding id_owner}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Пол" Binding="{Binding sex}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Возраст" Binding="{Binding age}" Width="*"></DataGridTextColumn>
+                <DataGridTemplateColumn Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                                <Button Background="White" Foreground="Black" Content="Редактировать" Name="btnEdit" Click="btn4" Cursor="Hand"/>
+                            </Border>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Page>

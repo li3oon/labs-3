@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище option_2Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="check_in">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_competition" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="competition">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name_competition" Type="varchar" MaxLength="25" />
+    <Property Name="date_competition" Type="date" />
+    <Property Name="time_competition" Type="time" Precision="0" />
+    <Property Name="hippodrome" Type="varchar" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="horse">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_owner" Type="int" Nullable="false" />
+    <Property Name="name_horse" Type="varchar" MaxLength="20" />
+    <Property Name="sex" Type="varchar" MaxLength="3" />
+    <Property Name="age" Type="int" />
+  </EntityType>
+  <EntityType Name="horse_owner">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name_owner" Type="varchar" MaxLength="60" />
+    <Property Name="adress" Type="varchar" MaxLength="70" />
+    <Property Name="phone" Type="varchar" MaxLength="11" />
+  </EntityType>
+  <EntityType Name="jockey">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name_jockey" Type="varchar" MaxLength="60" />
+    <Property Name="adress" Type="varchar" MaxLength="70" />
+    <Property Name="age" Type="int" />
+    <Property Name="rating" Type="decimal" Precision="3" Scale="1" />
+  </EntityType>
+  <EntityType Name="pair">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_horse" Type="int" Nullable="false" />
+    <Property Name="id_jockey" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Ошибки, обнаруженные при создании:
+предупреждение 6002: В таблице или представлении "option_2.dbo.participants" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
+  <EntityType Name="participants">
+    <Key>
+      <PropertyRef Name="id_pair" />
+      <PropertyRef Name="id_check_in" />
+    </Key>
+    <Property Name="id_pair" Type="int" Nullable="false" />
+    <Property Name="id_check_in" Type="int" Nullable="false" />
+    <Property Name="time_participants" Type="decimal" Precision="3" Scale="1" />
+    <Property Name="place_participants" Type="int" />
+  </EntityType>
+  <Association Name="FK__check_in__id_com__7B5B524B">
+    <End Role="competition" Type="Self.competition" Multiplicity="1" />
+    <End Role="check_in" Type="Self.check_in" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="competition">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="check_in">
+        <PropertyRef Name="id_competition" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__horse__id_owner__71D1E811">
+    <End Role="horse_owner" Type="Self.horse_owner" Multiplicity="1" />
+    <End Role="horse" Type="Self.horse" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="horse_owner">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="horse">
+        <PropertyRef Name="id_owner" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__pair__id_horse__7E37BEF6">
+    <End Role="horse" Type="Self.horse" Multiplicity="1" />
+    <End Role="pair" Type="Self.pair" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="horse">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="pair">
+        <PropertyRef Name="id_horse" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__pair__id_jockey__7F2BE32F">
+    <End Role="jockey" Type="Self.jockey" Multiplicity="1" />
+    <End Role="pair" Type="Self.pair" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="jockey">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="pair">
+        <PropertyRef Name="id_jockey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__participa__id_ch__02084FDA">
+    <End Role="check_in" Type="Self.check_in" Multiplicity="1" />
+    <End Role="participants" Type="Self.participants" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="check_in">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="participants">
+        <PropertyRef Name="id_check_in" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__participa__id_pa__01142BA1">
+    <End Role="pair" Type="Self.pair" Multiplicity="1" />
+    <End Role="participants" Type="Self.participants" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="pair">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="participants">
+        <PropertyRef Name="id_pair" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище option_2ModelContainer">
+    <EntitySet Name="check_in" EntityType="Self.check_in" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="competition" EntityType="Self.competition" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="horse" EntityType="Self.horse" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="horse_owner" EntityType="Self.horse_owner" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="jockey" EntityType="Self.jockey" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="pair" EntityType="Self.pair" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="participants" EntityType="Self.participants" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [participants].[id_pair] AS [id_pair], 
+    [participants].[id_check_in] AS [id_check_in], 
+    [participants].[time_participants] AS [time_participants], 
+    [participants].[place_participants] AS [place_participants]
+    FROM [dbo].[participants] AS [participants]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__check_in__id_com__7B5B524B" Association="Self.FK__check_in__id_com__7B5B524B">
+      <End Role="competition" EntitySet="competition" />
+      <End Role="check_in" EntitySet="check_in" />
+    </AssociationSet>
+    <AssociationSet Name="FK__horse__id_owner__71D1E811" Association="Self.FK__horse__id_owner__71D1E811">
+      <End Role="horse_owner" EntitySet="horse_owner" />
+      <End Role="horse" EntitySet="horse" />
+    </AssociationSet>
+    <AssociationSet Name="FK__pair__id_horse__7E37BEF6" Association="Self.FK__pair__id_horse__7E37BEF6">
+      <End Role="horse" EntitySet="horse" />
+      <End Role="pair" EntitySet="pair" />
+    </AssociationSet>
+    <AssociationSet Name="FK__pair__id_jockey__7F2BE32F" Association="Self.FK__pair__id_jockey__7F2BE32F">
+      <End Role="jockey" EntitySet="jockey" />
+      <End Role="pair" EntitySet="pair" />
+    </AssociationSet>
+    <AssociationSet Name="FK__participa__id_ch__02084FDA" Association="Self.FK__participa__id_ch__02084FDA">
+      <End Role="check_in" EntitySet="check_in" />
+      <End Role="participants" EntitySet="participants" />
+    </AssociationSet>
+    <AssociationSet Name="FK__participa__id_pa__01142BA1" Association="Self.FK__participa__id_pa__01142BA1">
+      <End Role="pair" EntitySet="pair" />
+      <End Role="participants" EntitySet="participants" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

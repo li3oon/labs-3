@@ -16,19 +16,13 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для _2.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class _2 : Page
     {
-        public MainWindow()
+        public _2()
         {
             InitializeComponent();
-            MainFrame.Navigate(new _1());
-            Manager.MainFrame = MainFrame;
-        }
-        private void btnClickBack(object sender, RoutedEventArgs e)
-        {
-            Manager.MainFrame.GoBack();
         }
     }
 }

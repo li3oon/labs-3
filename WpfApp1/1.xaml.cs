@@ -24,5 +24,17 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+        private void btn1(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new _2());
+        }
+        private void btn2(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new _3());
+        }
+        private void btn3(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new _4());
+        }
     }
 }

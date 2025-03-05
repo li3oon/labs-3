@@ -21,5 +21,14 @@
             <Grid Background="BlueViolet" Panel.ZIndex="-2"></Grid>
             <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"></Border>
         </Grid>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Button Background="White" Foreground="Black" Content="Список лошадей" Name="listHorse"  HorizontalAlignment="Center" Margin="0,-120,0,0" Width="120" Height="40"></Button>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Button Background="White" Foreground="Black" Content="Соренования" Name="cmp"  HorizontalAlignment="Center" Margin="0,0,0,0" Width="120" Height="40"></Button>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Button Background="White" Foreground="Black" Content="Что-то ещё" Name="name"  HorizontalAlignment="Center" Margin="0,120,0,0" Width="120" Height="40"></Button>
+        </Border>
     </Grid>
 </Window>

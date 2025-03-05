@@ -16,14 +16,13 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для _1.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class _1 : Page
     {
-        public MainWindow()
+        public _1()
         {
             InitializeComponent();
-            MainFrame.Navigate(new _1());
         }
     }
 }

@@ -36,5 +36,14 @@ namespace WpfApp1
         {
             Manager.MainFrame.Navigate(new _4());
         }
+        private void Button_MouseEnter(object sender, MouseEventArgs e)
+        {
+            (sender as Button).Background = Brushes.LightGray;
+        }
+
+        private void Button_MouseLeave(object sender, MouseEventArgs e)
+        {
+            (sender as Button).Background = Brushes.LightGray;
+        }
     }
 }

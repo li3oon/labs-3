@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("1/3.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("basemodel.context.tt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("basemodel.tt")]
 
 

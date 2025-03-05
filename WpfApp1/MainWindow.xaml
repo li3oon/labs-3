@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Скачки" Height="450" Width="800" FontFamily="Cascadia Code" FontSize="14" Icon="1/1.ico">
     <Grid>
-        
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="75"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <Image Source="1/1.png" HorizontalAlignment="Left" Width="75" Margin="0,0,0,2"/>
+            <TextBlock Foreground="Azure" Text="Скачки" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            <Frame Grid.Row="1" Name="MainFrame"  ContentRendered="MainFrame_ContentRendered" NavigationUIVisibility="Hidden"></Frame>
+            <Button Foreground="Azure" Background="BlueViolet" Content="Назад" Name="BtnBack"  HorizontalAlignment="Right"  Click="BtnBack_Click"></Button>
+            <Grid Background="BlueViolet" Panel.ZIndex="-2"></Grid>
+        </Grid>
     </Grid>
 </Window>

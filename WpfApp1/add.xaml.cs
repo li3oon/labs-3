@@ -41,7 +41,7 @@ namespace WpfApp1
                 errors.AppendLine("Введите кличку лошади");
             if (_currenthorse.age < 0 || _currenthorse.age > 30)
                 errors.AppendLine("Введите корректный возраст лошади");
-            if (_currenthorse.id_owner == 0)
+            if (_currenthorse.horse_owner == null)
                 errors.AppendLine("Выберите владельца");
 
             if (errors.Length > 0)

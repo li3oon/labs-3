@@ -36,7 +36,25 @@ namespace WpfApp1
         }
         private void btn66(object sender, RoutedEventArgs e)
         {
+            var horseRemoving = DGridhorses.SelectedItems.Cast<horse>().ToList();
 
+            if (MessageBox.Show($"Вы точно хотите удалить следующие {horseRemoving.Count()} элементы?", "Внимание",
+                MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
+            {
+                try
+                {
+                    option_2Entities.GetContext().horses.RemoveRange(horseRemoving);
+                    option_2Entities.GetContext().SaveChanges();
+                    MessageBox.Show("Данные удалены");
+
+                    DGridhorses.ItemsSource = option_2Entities.GetContext().horses.ToList();
+
+                }
+                catch (Exception ex) 
+                {
+                    MessageBox.Show(ex.Message.ToString());
+                }
+            }
         }
 
         private void Button_MouseEnter(object sender, MouseEventArgs e)
@@ -47,6 +65,15 @@ namespace WpfApp1
         private void Button_MouseLeave(object sender, MouseEventArgs e)
         {
             (sender as Button).Background = Brushes.LightGray;
+        }
+
+        private void Page_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+            if (Visibility == Visibility.Visible)
+            {
+                option_2Entities.GetContext().ChangeTracker.Entries().ToList().ForEach(p => p.Reload());
+                DGridhorses.ItemsSource = option_2Entities.GetContext().horses.ToList();
+            }
         }
     }
 }

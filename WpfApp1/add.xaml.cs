@@ -20,19 +20,51 @@ namespace WpfApp1
     /// </summary>
     public partial class add : Page
     {
+        private horse _currenthorse = new horse();
+
         public add()
         {
             InitializeComponent();
+            DataContext = _currenthorse;
+            ComboOwners.ItemsSource = option_2Entities.GetContext().horse_owner.ToList();
         }
 
         private void btn7(object sender, RoutedEventArgs e)
         {
             Manager.MainFrame.Navigate(new add2());
         }
-
+        
         private void btn8(object sender, RoutedEventArgs e)
         {
+            StringBuilder errors = new StringBuilder();
+            if (string.IsNullOrWhiteSpace(_currenthorse.name_horse))
+                errors.AppendLine("Введите кличку лошади");
+            if (_currenthorse.age < 0 || _currenthorse.age > 30)
+                errors.AppendLine("Введите корректный возраст лошади");
+            if (_currenthorse.id_owner == 0)
+                errors.AppendLine("Выберите владельца");
+
+            if (errors.Length > 0)
+            {
+                MessageBox.Show(errors.ToString());
+                return;
+            }
+
+            if (_currenthorse.id == 0)
+                option_2Entities.GetContext().horses.Add(_currenthorse);
+
+            try
+            {
+                option_2Entities.GetContext().SaveChanges();
+                MessageBox.Show("Добавлены данные о лошаде");
+            }
+            catch (Exception ex) 
+            { 
+                MessageBox.Show(ex.Message.ToString());
+            }
         }
+
+      
 
         private void Button_MouseEnter(object sender, MouseEventArgs e)
         {
@@ -43,5 +75,7 @@ namespace WpfApp1
         {
             (sender as Button).Background = Brushes.LightGray;
         }
+
+        
     }
 }

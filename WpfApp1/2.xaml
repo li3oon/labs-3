@@ -30,5 +30,8 @@
                 </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
+
+        <Button Background="White" Foreground="Black" Content="Добавить" Name="btn5" Width="120" Height="40" Click="btn5" Cursor="Hand" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="20,405,600,-44"/>
+        <Button Background="White" Foreground="Black" Content="Удалить" Name="btn6" Width="120" Height="40" Click="btn6" Cursor="Hand" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="-20,405,-600,-44"/>
     </Grid>
 </Page>

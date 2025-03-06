@@ -15,11 +15,20 @@ namespace WpfApp1
     
     public partial class option_2Entities : DbContext
     {
+        private static option_2Entities _context;
+
         public option_2Entities()
             : base("name=option_2Entities")
         {
         }
-    
+        
+        public static option_2Entities GetContext()
+        {
+            if (_context == null)
+                _context = new option_2Entities();
+            return _context;
+        }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();

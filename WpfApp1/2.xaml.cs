@@ -28,11 +28,25 @@ namespace WpfApp1
         }
         private void btn4(object sender, RoutedEventArgs e)
         {
-            Manager.MainFrame.Navigate(new _1());
+            Manager.MainFrame.Navigate(new edit());
         }
         private void btn5(object sender, RoutedEventArgs e)
         {
 
+        }
+        private void btn6(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_MouseEnter(object sender, MouseEventArgs e)
+        {
+            (sender as Button).Background = Brushes.LightGray;
+        }
+
+        private void Button_MouseLeave(object sender, MouseEventArgs e)
+        {
+            (sender as Button).Background = Brushes.LightGray;
         }
     }
 }

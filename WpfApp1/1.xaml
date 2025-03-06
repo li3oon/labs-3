@@ -6,16 +6,16 @@
       xmlns:local="clr-namespace:WpfApp1"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="_1">
+      Title="Скачки" FontFamily="Cascadia Code" FontSize="14">
     <Grid>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-            <Button Background="White" Foreground="Black" Content="Список лошадей" Name="listHorse"  HorizontalAlignment="Center" Margin="0,-120,0,0" Width="120" Height="40" Click="btn1" Cursor="Hand" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"/>
+            <Button Background="White" Foreground="Black" Content="Список лошадей" Name="listHorse"  HorizontalAlignment="Center" Margin="0,-120,0,0" Width="130" Height="40" Click="btn1" Cursor="Hand" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"/>
         </Border>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-            <Button Background="White" Foreground="Black" Content="Соренования" Name="cmp"  HorizontalAlignment="Center" Margin="0,0,0,0" Width="120" Height="40" Click="btn2" Cursor="Hand" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"/>
+            <Button Background="White" Foreground="Black" Content="Соренования" Name="cmp"  HorizontalAlignment="Center" Margin="0,0,0,0" Width="130" Height="40" Click="btn2" Cursor="Hand" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"/>
         </Border>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-            <Button Background="White" Foreground="Black" Content="Рейтинги жокеев" Name="Jockey"  HorizontalAlignment="Center" Margin="0,120,0,0" Width="120" Height="40" Click="btn3" Cursor="Hand" IsDefault="True" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"/>
+            <Button Background="White" Foreground="Black" Content="Рейтинги жокеев" Name="Jockey"  HorizontalAlignment="Center" Margin="0,120,0,0" Width="130" Height="40" Click="btn3" Cursor="Hand" IsDefault="True" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"/>
         </Border>
     </Grid>
 </Page>

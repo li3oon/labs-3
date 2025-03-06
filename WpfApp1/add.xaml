@@ -6,25 +6,34 @@
       xmlns:local="clr-namespace:WpfApp1"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="add">
+      Title="Добавление" FontFamily="Cascadia Code" FontSize="14" Foreground="Black">
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="325"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="110"/>
-            <RowDefinition Height="110"/>
-            <RowDefinition Height="110"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="80"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <TextBlock Text="Кличка лошади"></TextBlock>
-        <TextBlock Text="Пол" Grid.Row="1"></TextBlock>
-        <TextBlock Text="Возраст" Grid.Row="2"></TextBlock>
-        <TextBox Height="60" Width="350" MaxLength="100" Grid.Column="1" HorizontalAlignment="Left"></TextBox>
+        <TextBlock Text="Кличка лошади" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+        <TextBlock Text="Пол" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+        <TextBlock Text="Возраст" Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+        <TextBlock Foreground="White" Text="Владелец" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+        <TextBlock Foreground="White" Text="Выбрать существующего владельца" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top"></TextBlock>
+        <TextBlock Foreground="White" Text="Нового владельца" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Top"></TextBlock>
         
-        <TextBox Height="60" Width="350" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left"></TextBox>
+        <TextBox Height="40" Width="325" MaxLength="100" Grid.Column="1" HorizontalAlignment="Left"></TextBox>
+        <TextBox Height="40" Width="325" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left"></TextBox>
 
+        <Button Click="btn7" Cursor="Hand" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Background="White" Foreground="Black" Content="Добавить" Name="add2" Height="40" Width="100" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center"></Button>
+        <TextBox Height="40" Width="325" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left"></TextBox>
+
+        <Button Click="btn8" Cursor="Hand" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Background="White" Foreground="Black" Content="Сохранить" Name="save" Height="40" Width="100" HorizontalAlignment="Center" Grid.Row="4" Grid.Column="2" VerticalAlignment="Top"></Button>
     </Grid>
 </Page>

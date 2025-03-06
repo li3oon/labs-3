@@ -1,0 +1,19 @@
+        public string owner_name
+        {
+            get
+            {
+                var owners = option_2Entities.GetContext().horse_owner.ToList();
+
+                return owners.First(p => p.id == this.id_owner).name_owner;
+            }
+        }
+
+
+        public static option_2Entities GetContext()
+        {
+            if (_context == null)
+            {
+                _context = new option_2Entities();
+            }
+            return _context;
+        }

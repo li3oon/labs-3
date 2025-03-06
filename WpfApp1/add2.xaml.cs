@@ -16,22 +16,18 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Логика взаимодействия для add.xaml
+    /// Логика взаимодействия для add2.xaml
     /// </summary>
-    public partial class add : Page
+    public partial class add2 : Page
     {
-        public add()
+        public add2()
         {
             InitializeComponent();
         }
 
-        private void btn7(object sender, RoutedEventArgs e)
+        private void btn9(object sender, RoutedEventArgs e)
         {
-            Manager.MainFrame.Navigate(new add2());
-        }
 
-        private void btn8(object sender, RoutedEventArgs e)
-        {
         }
 
         private void Button_MouseEnter(object sender, MouseEventArgs e)

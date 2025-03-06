@@ -11,7 +11,8 @@ namespace WpfApp1
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.Linq;
+
     public partial class horse
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -26,6 +27,16 @@ namespace WpfApp1
         public string sex { get; set; }
         public Nullable<int> age { get; set; }
     
+        public string owner_name
+        {
+            get
+            {
+                var owners = option_2Entities.GetContext().horse_owner.ToList();
+
+                return owners.First(p => p.id == this.id_owner).name_owner;
+            }
+        }
+
         public virtual horse_owner horse_owner { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<pair> pairs { get; set; }

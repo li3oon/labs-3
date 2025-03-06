@@ -30,11 +30,11 @@ namespace WpfApp1
         {
             Manager.MainFrame.Navigate(new edit());
         }
-        private void btn5(object sender, RoutedEventArgs e)
+        private void btn55(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new add());
         }
-        private void btn6(object sender, RoutedEventArgs e)
+        private void btn66(object sender, RoutedEventArgs e)
         {
 
         }

@@ -16,7 +16,7 @@
         <DataGrid x:Name="DGridhorses" AutoGenerateColumns="False" IsReadOnly="True">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Кличка лошади" Binding="{Binding name_horse}" Width="*"></DataGridTextColumn>
-                <DataGridTextColumn Header="Владелец" Binding="{Binding id_owner}" Width="*"></DataGridTextColumn>
+                <!--<DataGridTextColumn Header="Владелец" Binding="{Binding id_owner}" Width="*"></DataGridTextColumn>-->
                 <DataGridTextColumn Header="Пол" Binding="{Binding sex}" Width="*"></DataGridTextColumn>
                 <DataGridTextColumn Header="Возраст" Binding="{Binding age}" Width="*"></DataGridTextColumn>
                 <DataGridTemplateColumn Width="auto">
@@ -31,7 +31,7 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <Button Background="White" Foreground="Black" Content="Добавить" Name="btn5" Width="120" Height="40" Click="btn5" Cursor="Hand" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="20,405,600,-44"/>
-        <Button Background="White" Foreground="Black" Content="Удалить" Name="btn6" Width="120" Height="40" Click="btn6" Cursor="Hand" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="-20,405,-600,-44"/>
+        <Button Grid.Row="1" Background="White" Foreground="Black" Content="Добавить" Name="btn5" Width="120" Height="40" Click="btn55" Cursor="Hand" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="50,5,632,5"/>
+        <Button Grid.Row="1" Background="White" Foreground="Black" Content="Удалить" Name="btn6" Width="120" Height="40" Click="btn66" Cursor="Hand" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="-50,5,-632,5"/>
     </Grid>
 </Page>

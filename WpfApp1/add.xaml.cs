@@ -39,6 +39,8 @@ namespace WpfApp1
             StringBuilder errors = new StringBuilder();
             if (string.IsNullOrWhiteSpace(_currenthorse.name_horse))
                 errors.AppendLine("Введите кличку лошади");
+            if (string.IsNullOrWhiteSpace(_currenthorse.sex))
+                errors.AppendLine("Введите пол лошади: муж/жен");
             if (_currenthorse.age < 0 || _currenthorse.age > 30)
                 errors.AppendLine("Введите корректный возраст лошади");
             if (_currenthorse.horse_owner == null)

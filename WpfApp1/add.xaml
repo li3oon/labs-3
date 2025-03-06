@@ -29,9 +29,7 @@
         <TextBlock Foreground="White" Text="Нового владельца" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Top"></TextBlock>
 
         <TextBox Text="{Binding name_horse}" Height="40" Width="325" MaxLength="100" Grid.Column="1" HorizontalAlignment="Left"></TextBox>
-        
-        <RadioButton Foreground="Black" IsChecked="{Binding sex}" Tag="муж" Content="муж" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Width="50" Margin="65,0,210,0"></RadioButton>
-        <RadioButton Foreground="Black" IsChecked="{Binding sex}" Tag="жен" Content="жен" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Width="50" Margin="210,0,65,0"></RadioButton>
+        <TextBox Text="{Binding sex}" Height="40" Width="110" MaxLength="3" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left"></TextBox>
 
         <TextBox Text="{Binding age}" Height="40" Width="325" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left"></TextBox>
 

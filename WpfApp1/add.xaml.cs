@@ -37,6 +37,7 @@ namespace WpfApp1
         private void btn8(object sender, RoutedEventArgs e)
         {
             StringBuilder errors = new StringBuilder();
+
             if (string.IsNullOrWhiteSpace(_currenthorse.name_horse))
                 errors.AppendLine("Введите кличку лошади");
             if (string.IsNullOrWhiteSpace(_currenthorse.sex))
@@ -45,6 +46,8 @@ namespace WpfApp1
                 errors.AppendLine("Введите корректный возраст лошади");
             if (_currenthorse.horse_owner == null)
                 errors.AppendLine("Выберите владельца");
+
+            //проверка на дубликат записи хули этого нет в методичке
 
             if (errors.Length > 0)
             {

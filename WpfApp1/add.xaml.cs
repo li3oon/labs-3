@@ -47,7 +47,7 @@ namespace WpfApp1
             if (_currenthorse.horse_owner == null)
                 errors.AppendLine("Выберите владельца");
 
-            //проверка на дубликат записи хули этого нет в методичке
+            //проверка на дубликат записи этого неn
 
             if (errors.Length > 0)
             {

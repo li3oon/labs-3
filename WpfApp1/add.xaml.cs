@@ -55,18 +55,28 @@ namespace WpfApp1
                 return;
             }
 
-            if (_currenthorse.id == 0)
-                option_2Entities.GetContext().horses.Add(_currenthorse);
+            var allhorses = option_2Entities.GetContext().horses.ToList();
+            allhorses=allhorses.Where(p=>p.name_horse==_currenthorse.name_horse).ToList();
 
-            try
+            if (allhorses.Count == 0 || (_currenthorse.id != 0 && allhorses.Count <= 1))
             {
-                option_2Entities.GetContext().SaveChanges();
-                MessageBox.Show("Добавлены данные о лошаде");
+                
+
+                if (_currenthorse.id == 0)
+                    option_2Entities.GetContext().horses.Add(_currenthorse);
+                
+                try
+                {
+                    option_2Entities.GetContext().SaveChanges();
+                    MessageBox.Show("Добавлены данные о лошаде");
+                    Manager.MainFrame.GoBack();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message.ToString());
+                }
             }
-            catch (Exception ex) 
-            { 
-                MessageBox.Show(ex.Message.ToString());
-            }
+            else MessageBox.Show("Такая запись о лошаде уже существует");
         }
 
       

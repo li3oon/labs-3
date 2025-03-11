@@ -84,5 +84,10 @@ namespace WpfApp1
         {
             (sender as Button).Background = Brushes.LightGray;
         }
+
+        private void btn10(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new ownerhorse());
+        }
     }
 }

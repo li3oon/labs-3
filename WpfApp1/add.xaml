@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:WpfApp1"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Добавление" FontFamily="Cascadia Code" FontSize="14" Foreground="Black">
+      Title="Добавление" FontFamily="Cascadia Code" FontSize="14" Foreground="White">
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -24,9 +24,9 @@
         <TextBlock Text="Кличка лошади" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
         <TextBlock Text="Пол" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
         <TextBlock Text="Возраст" Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
-        <TextBlock Foreground="White" Text="Владелец" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
-        <TextBlock Foreground="White" Text="Выбрать существующего владельца" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top"></TextBlock>
-        <TextBlock Foreground="White" Text="Нового владельца" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Top"></TextBlock>
+        <TextBlock Text="Владелец" Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+        <TextBlock Text="Выбрать существующего владельца" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top"></TextBlock>
+        <TextBlock Text="Нового владельца" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Top"></TextBlock>
 
         <TextBox Text="{Binding name_horse}" Height="40" Width="325" MaxLength="100" Grid.Column="1" HorizontalAlignment="Left"></TextBox>
         <TextBox Text="{Binding sex}" Height="40" Width="110" MaxLength="3" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left"></TextBox>

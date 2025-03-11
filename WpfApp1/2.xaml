@@ -23,7 +23,7 @@
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-                                <Button Background="White" Foreground="Black" Content="Редактировать" Name="btnEdit" Click="btn4" Cursor="Hand"/>
+                                <Button Content="Редактировать" Name="btnEdit" Click="btn4"/>
                             </Border>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
@@ -31,7 +31,7 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <Button Grid.Row="1" Background="White" Foreground="Black" Content="Добавить" Name="btn5" Width="120" Height="40" Click="btn55" Cursor="Hand" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="50,5,632,5"/>
-        <Button Grid.Row="1" Background="White" Foreground="Black" Content="Удалить" Name="btn6" Width="120" Height="40" Click="btn66" Cursor="Hand" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="-50,5,-632,5"/>
+        <Button Grid.Row="1" Content="Добавить" Name="btn5" Width="120" Click="btn55" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="50,5,632,5"/>
+        <Button Grid.Row="1"  Content="Удалить" Name="btn6" Width="120" Click="btn66" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="-50,5,-632,5"/>
     </Grid>
 </Page>

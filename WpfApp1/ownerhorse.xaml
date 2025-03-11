@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:WpfApp1"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Владельцы" FontFamily="Cascadia Code" FontSize="14">
+      Title="Владельцы" FontFamily="Cascadia Code" FontSize="14" IsVisibleChanged="Page_IsVisibleChanged1">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -22,7 +22,7 @@
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-                                <Button Background="White" Foreground="Black" Content="Редактировать" Name="btnEdit" Click="btn12" Cursor="Hand"/>
+                                <Button Content="Редактировать" Name="btnEdit" Click="btn12"/>
                             </Border>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
@@ -30,6 +30,6 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <Button Grid.Row="1" Background="White" Foreground="Black" Content="Удалить" Name="btn" Width="120" Height="40" Click="btn11" Cursor="Hand" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="-50,5,-632,5"/>
+        <Button Grid.Row="1" Content="Удалить" Name="btn" Width="120" Click="btn11" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="-50,5,-632,5"/>
     </Grid>
 </Page>

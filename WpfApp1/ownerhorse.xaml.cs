@@ -20,14 +20,19 @@ namespace WpfApp1
     /// </summary>
     public partial class ownerhorse : Page
     {
-        public ownerhorse()
+        private horse_owner _currenthorseowner = new horse_owner();
+
+        public ownerhorse(horse_owner selectedhorseowner)
         {
             InitializeComponent();
+
+            if (selectedhorseowner != null)
+                _currenthorseowner = selectedhorseowner;
             DGridownerhorse.ItemsSource = option_2Entities.GetContext().horse_owner.ToList();
         }
         private void btn12(object sender, RoutedEventArgs e)
         {
-            Manager.MainFrame.Navigate(new add((sender as Button).DataContext as horse));
+            Manager.MainFrame.Navigate(new add2((sender as Button).DataContext as horse_owner));
         }
         private void btn11(object sender, RoutedEventArgs e)
         {
@@ -59,6 +64,16 @@ namespace WpfApp1
         private void Button_MouseLeave(object sender, MouseEventArgs e)
         {
             (sender as Button).Background = Brushes.LightGray;
+        }
+
+        private void Page_IsVisibleChanged1(object sender, DependencyPropertyChangedEventArgs e)
+        {
+            if (Visibility == Visibility.Visible)
+            {
+                option_2Entities.GetContext().ChangeTracker.Entries().ToList().ForEach(p => p.Reload());
+                DGridownerhorse.ItemsSource = option_2Entities.GetContext().horse_owner.ToList();
+
+            }
         }
     }
 }

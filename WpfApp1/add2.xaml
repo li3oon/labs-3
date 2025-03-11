@@ -25,12 +25,12 @@
         <TextBlock Text="Адрес" Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
         <TextBlock Text="Телефон" Grid.Row="2" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
         
-        <TextBox Text="{Binding name_owner}" Height="40" Width="325" MaxLength="100" Grid.Column="1" HorizontalAlignment="Left"></TextBox>
-        <TextBox Text="{Binding adress}" Height="40" Width="325" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left"></TextBox>
-        <TextBox Text="{Binding phone}" Height="40" Width="325" MaxLength="100" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left"></TextBox>
+        <TextBox Text="{Binding name_owner}" Width="325" MaxLength="100" Grid.Column="1" HorizontalAlignment="Left"></TextBox>
+        <TextBox Text="{Binding phone}" MaxLength="11" Width="325" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left"></TextBox>
+        <TextBox Text="{Binding adress}" Width="325" MaxLength="100" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left"></TextBox>
 
-        <Button Click="btn9" Cursor="Hand" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Background="White" Foreground="Black" Content="Сохранить" Name="save1" Height="40" Width="100" HorizontalAlignment="Center" Grid.Row="4" Grid.Column="2" VerticalAlignment="Top"></Button>
-        <Button Click="btn10" Cursor="Hand" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Background="White" Foreground="Black" Content="Данные о владельцах" Name="db" Height="40" Width="170" HorizontalAlignment="Center" Grid.Row="3" Grid.Column="2" VerticalAlignment="Top"></Button>
+        <Button Click="btn9" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Content="Сохранить" Name="save1" Width="100" HorizontalAlignment="Center" Grid.Row="4" Grid.Column="2" VerticalAlignment="Top"></Button>
+        <Button Click="btn10" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Content="Данные о владельцах" Name="db" Width="170" HorizontalAlignment="Center" Grid.Row="3" Grid.Column="2" VerticalAlignment="Top"></Button>
 
     </Grid>
 </Page>

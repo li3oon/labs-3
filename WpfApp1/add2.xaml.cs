@@ -87,7 +87,7 @@ namespace WpfApp1
 
         private void btn10(object sender, RoutedEventArgs e)
         {
-            Manager.MainFrame.Navigate(new ownerhorse());
+            Manager.MainFrame.Navigate(new ownerhorse(null));
         }
     }
 }

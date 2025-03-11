@@ -28,11 +28,11 @@ namespace WpfApp1
         }
         private void btn4(object sender, RoutedEventArgs e)
         {
-            Manager.MainFrame.Navigate(new edit());
+            Manager.MainFrame.Navigate(new add((sender as Button).DataContext as horse));
         }
         private void btn55(object sender, RoutedEventArgs e)
         {
-            Manager.MainFrame.Navigate(new add());
+            Manager.MainFrame.Navigate(new add(null));
         }
         private void btn66(object sender, RoutedEventArgs e)
         {
@@ -73,6 +73,7 @@ namespace WpfApp1
             {
                 option_2Entities.GetContext().ChangeTracker.Entries().ToList().ForEach(p => p.Reload());
                 DGridhorses.ItemsSource = option_2Entities.GetContext().horses.ToList();
+
             }
         }
     }

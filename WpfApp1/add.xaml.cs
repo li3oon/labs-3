@@ -22,16 +22,19 @@ namespace WpfApp1
     {
         private horse _currenthorse = new horse();
 
-        public add()
+        public add(horse selectedhorse)
         {
             InitializeComponent();
+            if(selectedhorse != null)
+                _currenthorse = selectedhorse;
+
             DataContext = _currenthorse;
             ComboOwners.ItemsSource = option_2Entities.GetContext().horse_owner.ToList();
         }
 
         private void btn7(object sender, RoutedEventArgs e)
         {
-            Manager.MainFrame.Navigate(new add2());
+            Manager.MainFrame.Navigate(new add2((sender as Button).DataContext as horse_owner));
         }
         
         private void btn8(object sender, RoutedEventArgs e)
@@ -62,7 +65,7 @@ namespace WpfApp1
             {
                 
 
-                if (_currenthorse.id == 0)
+                if (allhorses.Count == 0)
                     option_2Entities.GetContext().horses.Add(_currenthorse);
                 
                 try

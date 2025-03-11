@@ -10,14 +10,19 @@
 
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
-        <DataGrid x:Name="DGridcomp" AutoGenerateColumns="False" IsReadOnly="True">
+        <DatePicker Name="end" Margin="0,5,0,5" HorizontalAlignment="Center"></DatePicker>
+        <DatePicker Name="start" Margin="100,5,580,5"></DatePicker>
+        <Button Content="Поиск" Name="btn177" Width="120" Click="btn17" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="580,5,100,5"/>
+
+        <DataGrid Grid.Row="1"  x:Name="DGridcomp" AutoGenerateColumns="False" IsReadOnly="True">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Наименование" Binding="{Binding name_competition}" Width="*"></DataGridTextColumn>
-                <DataGridTextColumn Header="Дата" Binding="{Binding date_competition}" Width="*"></DataGridTextColumn>
-                <DataGridTextColumn Header="Время" Binding="{Binding time_competition}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Дата" Binding="{Binding date_competition,StringFormat='MM.dd.yyyy'}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Время" Binding="{Binding time_competition, StringFormat='hh\\:mm'}" Width="*"></DataGridTextColumn>
                 <DataGridTextColumn Header="Ипподром" Binding="{Binding hippodrome}" Width="*"></DataGridTextColumn>
                 <DataGridTemplateColumn Width="auto">
                     <DataGridTemplateColumn.CellTemplate>
@@ -31,8 +36,8 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <Button Grid.Row="1" Content="Добавить" Name="btn144" Width="120" Click="btn14" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="50,5,632,5"/>
-        <Button Grid.Row="1" Content="Удалить" Name="btn155" Width="120" Click="btn15" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="-50,5,-632,5"/>
-        <Button Grid.Row="1" Content="Заезды" Name="btn166" Width="120" Click="btn16" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="340,5,340,5"/>
+        <Button Grid.Row="2" Content="Добавить" Name="btn144" Width="120" Click="btn14" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="50,5,632,5"/>
+        <Button Grid.Row="2" Content="Удалить" Name="btn155" Width="120" Click="btn15" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="-50,5,-632,5"/>
+        <Button Grid.Row="2" Content="Заезды" Name="btn166" Width="120" Click="btn16" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="340,5,340,5"/>
     </Grid>
 </Page>

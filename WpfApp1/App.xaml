@@ -19,6 +19,12 @@
             <Setter Property="Height" Value="40"></Setter>
         </Style>
 
+        <Style TargetType="DatePicker">
+            <Setter Property="Width" Value="120"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="Background" Value="White"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+        </Style>
         <!--<Style TargetType="Border">
             <Setter Property="BorderBrush" Value="black"></Setter>
             <Setter Property="BorderThickness" Value="1"></Setter>

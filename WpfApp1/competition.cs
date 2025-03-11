@@ -22,11 +22,13 @@ namespace WpfApp1
     
         public int id { get; set; }
         public string name_competition { get; set; }
-        public Nullable<System.DateTime> date_competition { get; set; }
-        public Nullable<System.TimeSpan> time_competition { get; set; }
+        public System.DateTime date_competition { get; set; }
+        public System.TimeSpan time_competition { get; set; }
         public string hippodrome { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<check_in> check_in { get; set; }
+
+
     }
 }

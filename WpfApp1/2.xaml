@@ -31,7 +31,7 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <Button Grid.Row="1" Content="Добавить" Name="btn5" Width="120" Click="btn55" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="50,5,632,5"/>
-        <Button Grid.Row="1"  Content="Удалить" Name="btn6" Width="120" Click="btn66" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="-50,5,-632,5"/>
+        <Button Grid.Row="1" Content="Добавить" Name="btn5" Click="btn55" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="50,5,632,5"/>
+        <Button Grid.Row="1"  Content="Удалить" Name="btn6" Click="btn66" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="632,5,50,5"/>
     </Grid>
 </Page>

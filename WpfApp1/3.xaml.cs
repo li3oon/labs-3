@@ -29,12 +29,12 @@ namespace WpfApp1
 
         private void btn13(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new add3((sender as Button).DataContext as competition));
         }
 
         private void btn14(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new add3(null));
         }
 
         private void btn15(object sender, RoutedEventArgs e)
@@ -59,6 +59,10 @@ namespace WpfApp1
                 }
             }
         }
+        private void btn16(object sender, RoutedEventArgs e)
+        {
+
+        }
         private void Button_MouseEnter(object sender, MouseEventArgs e)
         {
             (sender as Button).Background = Brushes.LightGray;
@@ -69,11 +73,35 @@ namespace WpfApp1
             (sender as Button).Background = Brushes.LightGray;
         }
 
-        private void btn16(object sender, RoutedEventArgs e)
+        private void StartDatePicker_SelectedDateChanged(object sender, SelectionChangedEventArgs e)
         {
+            if (end.SelectedDate == null || end.SelectedDate < start.SelectedDate)
+            {
+                end.SelectedDate = DateTime.Now.Date;
+            }
 
+            ApplyDateFilter();
         }
 
-        
+        private void EndDatePicker_SelectedDateChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ApplyDateFilter();
+        }
+        private void ApplyDateFilter()
+        {
+            if (start.SelectedDate == null || end.SelectedDate == null)
+                return;
+
+            DateTime startDate = start.SelectedDate.Value.Date;
+            DateTime endDate = end.SelectedDate.Value.Date.AddDays(1).AddTicks(-1);
+
+            DGridcomp.Items.Filter = item =>
+            {
+                competition items = (competition)item;
+
+                return items.date_competition >= startDate && (items.date_competition == null || items.date_competition <= endDate);
+            };
+
+        }
     }
 }

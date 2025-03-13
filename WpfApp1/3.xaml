@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:WpfApp1"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="Соренования" FontFamily="Cascadia Code" FontSize="14">
+      Title="Соренования" FontFamily="Cascadia Code" FontSize="14" Cursor="">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -14,14 +14,15 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
-        <DatePicker Name="end" Margin="0,5,0,5" HorizontalAlignment="Center"></DatePicker>
-        <DatePicker Name="start" Margin="100,5,580,5"></DatePicker>
-        <Button Content="Поиск" Name="btn177" Width="120" Click="btn17" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="580,5,100,5"/>
+        <DatePicker SelectedDateChanged="EndDatePicker_SelectedDateChanged" Name="end" Margin="424,5,226,5"></DatePicker>
+        <DatePicker SelectedDateChanged="StartDatePicker_SelectedDateChanged" Name="start" Margin="225,5,425,5"></DatePicker>
+        <TextBlock Text="Сортировка по датам:   c" VerticalAlignment="Center" Margin="10,0,500,0"></TextBlock>
+        <TextBlock Text="по" VerticalAlignment="Center" Width="17" HorizontalAlignment="Center"></TextBlock>
 
         <DataGrid Grid.Row="1"  x:Name="DGridcomp" AutoGenerateColumns="False" IsReadOnly="True">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Наименование" Binding="{Binding name_competition}" Width="*"></DataGridTextColumn>
-                <DataGridTextColumn Header="Дата" Binding="{Binding date_competition,StringFormat='MM.dd.yyyy'}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Дата" Binding="{Binding date_competition,StringFormat='dd.MM.yyyy'}" Width="*"></DataGridTextColumn>
                 <DataGridTextColumn Header="Время" Binding="{Binding time_competition, StringFormat='hh\\:mm'}" Width="*"></DataGridTextColumn>
                 <DataGridTextColumn Header="Ипподром" Binding="{Binding hippodrome}" Width="*"></DataGridTextColumn>
                 <DataGridTemplateColumn Width="auto">
@@ -36,8 +37,8 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <Button Grid.Row="2" Content="Добавить" Name="btn144" Width="120" Click="btn14" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="50,5,632,5"/>
-        <Button Grid.Row="2" Content="Удалить" Name="btn155" Width="120" Click="btn15" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="-50,5,-632,5"/>
-        <Button Grid.Row="2" Content="Заезды" Name="btn166" Width="120" Click="btn16" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="340,5,340,5"/>
+        <Button Grid.Row="2" Content="Добавить" Name="btn144" Click="btn14" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="50,5,632,5"/>
+        <Button Grid.Row="2" Content="Удалить" Name="btn155" Click="btn15" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Margin="632,5,50,5" Cursor="Hand"/>
+        <Button Grid.Row="2" Content="Заезды" Name="btn166" Width="120" Click="btn16" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" HorizontalAlignment="Center" VerticalAlignment="Center" Cursor="Hand"/>
     </Grid>
 </Page>

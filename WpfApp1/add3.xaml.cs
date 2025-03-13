@@ -30,13 +30,15 @@ namespace WpfApp1
             DataContext = _currentcomp;
         }
 
+        
         //попытка перевести строку из тексбокса в время 
         /*private void time1(object sender, RoutedEventArgs e)
         {
             string t = time.Text;
             TimeSpan t1 = TimeSpan.Parse(time.Text);
         }*/
-        //просмотреть связь между вводом и сохранением даты и времени 
+        //просмотреть связь между вводом и сохранением даты и времени
+        //редактировать ещё много
         
 
         private void btn18(object sender, RoutedEventArgs e)

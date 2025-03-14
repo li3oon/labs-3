@@ -45,14 +45,17 @@ namespace WpfApp1
             _currentcomp.date_competition = Convert.ToDateTime(date.Text);
             string str = _currentcomp.time_competition.ToString();
             TimeSpan.TryParse(str, out TimeSpan time);
+            DateTime t1 = new DateTime(1989, 12, 12, 0, 0, 0);
+            DateTime t2 = new DateTime(2099, 12, 12, 0, 0, 0);
+
 
             StringBuilder errors = new StringBuilder();
 
             if (string.IsNullOrEmpty(_currentcomp.name_competition))
                 errors.AppendLine("Введите наименование состязания");
-            if (_currentcomp.date_competition == null)
+            if ((_currentcomp.date_competition == null) || (_currentcomp.date_competition < t1) || (_currentcomp.date_competition > t2))
                 errors.AppendLine("Введите/укажите дату состязания");
-            if (_currentcomp.time_competition == null)
+            if ((_currentcomp.time_competition == null) || (TimeSpan.Parse("08:00") < _currentcomp.time_competition) || (TimeSpan.Parse("19:00") > _currentcomp.time_competition))
                 errors.AppendLine("Введите время состязания");
             if (string.IsNullOrEmpty(_currentcomp.hippodrome))
                 errors.AppendLine("Введите ипподром");

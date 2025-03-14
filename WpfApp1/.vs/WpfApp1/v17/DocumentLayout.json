@@ -3,56 +3,16 @@
   "WorkspaceRootPath": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\wpfapp1\\rating.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:rating.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\wpfapp1\\addjockey.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:addjockey.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\wpfapp1\\zaezd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:zaezd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\add3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:add3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\wpfapp1\\pair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:pair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\check_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:check_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\add3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:add3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\add.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:add.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\add.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:add.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\competition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:competition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\wpfapp1\\jockey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:jockey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -61,9 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\basemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:basemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lizoc\\AppData\\Local\\Temp\\.vsdbgsrc\\c824721cd7d9c028e31d9faa77b348c59e49e6a99818a102ec7b7f9254f84219\\PropertyPathWorker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -73,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 146,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -85,11 +42,12 @@
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-05T02:54:59.349Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
               "Title": "BaseModel.edmx [Diagram1]",
               "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\BaseModel.edmx",
               "RelativeDocumentMoniker": "BaseModel.edmx",
@@ -98,180 +56,54 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
               "WhenOpened": "2025-03-05T11:52:47.795Z",
               "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "rating.xaml",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\rating.xaml",
-              "RelativeDocumentMoniker": "rating.xaml",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\rating.xaml",
-              "RelativeToolTip": "rating.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-14T04:38:47.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "1.xaml",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\1.xaml",
-              "RelativeDocumentMoniker": "1.xaml",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\1.xaml",
-              "RelativeToolTip": "1.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-14T04:14:07.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "add3.xaml",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\add3.xaml",
-              "RelativeDocumentMoniker": "add3.xaml",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\add3.xaml",
-              "RelativeToolTip": "add3.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-13T07:16:12.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "3.xaml",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\3.xaml",
-              "RelativeDocumentMoniker": "3.xaml",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\3.xaml",
-              "RelativeToolTip": "3.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-11T12:59:56.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "add.xaml.cs",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\add.xaml.cs",
-              "RelativeDocumentMoniker": "add.xaml.cs",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\add.xaml.cs",
-              "RelativeToolTip": "add.xaml.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAD0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T01:01:14.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "add.xaml",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\add.xaml",
-              "RelativeDocumentMoniker": "add.xaml",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\add.xaml",
-              "RelativeToolTip": "add.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-11T23:00:23.931Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "competition.cs",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\competition.cs",
-              "RelativeDocumentMoniker": "competition.cs",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\competition.cs",
-              "RelativeToolTip": "competition.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T00:06:09.315Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-11T13:22:26.491Z",
-              "EditorCaption": ""
             }
           ]
         },
         {
           "DockedWidth": 155,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "PropertyPathWorker.cs",
-              "DocumentMoniker": "C:\\Users\\lizoc\\AppData\\Local\\Temp\\.vsdbgsrc\\c824721cd7d9c028e31d9faa77b348c59e49e6a99818a102ec7b7f9254f84219\\PropertyPathWorker.cs",
-              "ToolTip": "C:\\Users\\lizoc\\AppData\\Local\\Temp\\.vsdbgsrc\\c824721cd7d9c028e31d9faa77b348c59e49e6a99818a102ec7b7f9254f84219\\PropertyPathWorker.cs",
-              "ViewState": "AgIAAKIEAAAAAAAAAAAcwLcEAAAEAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T19:52:28.074Z",
-              "IsPinned": true
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "pair.cs",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\pair.cs",
-              "RelativeDocumentMoniker": "pair.cs",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\pair.cs",
-              "RelativeToolTip": "pair.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "addjockey.xaml.cs",
+              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\addjockey.xaml.cs",
+              "RelativeDocumentMoniker": "addjockey.xaml.cs",
+              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\addjockey.xaml.cs",
+              "RelativeToolTip": "addjockey.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T04:25:38.502Z",
+              "WhenOpened": "2025-03-14T14:36:23.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "participant.cs",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\participant.cs",
-              "RelativeDocumentMoniker": "participant.cs",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\participant.cs",
-              "RelativeToolTip": "participant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "jockey.cs",
+              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\jockey.cs",
+              "RelativeDocumentMoniker": "jockey.cs",
+              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\jockey.cs",
+              "RelativeToolTip": "jockey.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T04:24:37.384Z"
+              "WhenOpened": "2025-03-14T14:35:46.133Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "check_in.cs",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\check_in.cs",
-              "RelativeDocumentMoniker": "check_in.cs",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\check_in.cs",
-              "RelativeToolTip": "check_in.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T04:24:13.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "add3.xaml.cs",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\add3.xaml.cs",
-              "RelativeDocumentMoniker": "add3.xaml.cs",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\add3.xaml.cs",
-              "RelativeToolTip": "add3.xaml.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowFAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T00:50:36.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "3.xaml.cs",
-              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\3.xaml.cs",
-              "RelativeDocumentMoniker": "3.xaml.cs",
-              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\3.xaml.cs",
-              "RelativeToolTip": "3.xaml.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAnwFgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:48:47.718Z"
+              "DocumentIndex": 1,
+              "Title": "zaezd.xaml",
+              "DocumentMoniker": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\zaezd.xaml",
+              "RelativeDocumentMoniker": "zaezd.xaml",
+              "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\zaezd.xaml",
+              "RelativeToolTip": "zaezd.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-14T14:34:40.688Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -61,7 +61,7 @@ namespace WpfApp1
         }
         private void btn16(object sender, RoutedEventArgs e)
         {
-
+            Manager.MainFrame.Navigate(new zaezd());
         }
         private void Button_MouseEnter(object sender, MouseEventArgs e)
         {

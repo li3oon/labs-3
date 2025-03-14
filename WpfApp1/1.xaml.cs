@@ -34,7 +34,7 @@ namespace WpfApp1
         }
         private void btn3(object sender, RoutedEventArgs e)
         {
-            Manager.MainFrame.Navigate(new _4());
+            Manager.MainFrame.Navigate(new rating());
         }
         private void Button_MouseEnter(object sender, MouseEventArgs e)
         {

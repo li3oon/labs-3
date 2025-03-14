@@ -15,7 +15,7 @@
             <Button Content="Состязания" Name="cmp"  HorizontalAlignment="Center" Margin="0,0,0,0" Width="130" Height="40" Click="btn2" Cursor="Hand" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"/>
         </Border>
         <Border>
-            <Button Content="Рейтинги жокеев" Name="Jockey"  HorizontalAlignment="Center" Margin="0,120,0,0" Width="130" Height="40" Click="btn3" Cursor="Hand" IsDefault="True" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"/>
+            <Button Content="Жокеи" Name="Jockey"  HorizontalAlignment="Center" Margin="0,120,0,0" Width="130" Height="40" Click="btn3" Cursor="Hand" IsDefault="True" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"/>
         </Border>
     </Grid>
 </Page>

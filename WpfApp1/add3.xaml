@@ -27,9 +27,8 @@
         <TextBlock Grid.Row="1" Text="Дата" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
         <DatePicker Text="{Binding date_competition}" SelectedDateFormat="Short" IsTodayHighlighted="True" Name="date" Grid.Row="1" Grid.Column="1" DisplayDateEnd="2099-12-31" DisplayDateStart="1989-12-31"></DatePicker>
 
-
         <TextBlock Grid.Row="2" Text="Время" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
-        <TextBox Text="{Binding time_competition, UpdateSourceTrigger=PropertyChanged}" Name="time" Width="325" Grid.Row="2" Grid.Column="1" MaxLength="9"></TextBox>
+        <TextBox Text="{Binding time_competition}" Name="time" Width="325" Grid.Row="2" Grid.Column="1" MaxLength="9"></TextBox>
 
         <TextBlock Grid.Row="3" Text="Ипподром" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
         <TextBox Text="{Binding hippodrome}" Width="325" MaxLength="100" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left"></TextBox>

@@ -30,7 +30,7 @@ namespace WpfApp1
             DataContext = _currentcomp;
         }
 
-        
+
         //попытка перевести строку из тексбокса в время 
         /*private void time1(object sender, RoutedEventArgs e)
         {
@@ -39,10 +39,13 @@ namespace WpfApp1
         }*/
         //просмотреть связь между вводом и сохранением даты и времени
         //редактировать ещё много
-        
 
         private void btn18(object sender, RoutedEventArgs e)
         {
+            _currentcomp.date_competition = Convert.ToDateTime(date.Text);
+            string str = _currentcomp.time_competition.ToString();
+            TimeSpan.TryParse(str, out TimeSpan time);
+
             StringBuilder errors = new StringBuilder();
 
             if (string.IsNullOrEmpty(_currentcomp.name_competition))
@@ -75,6 +78,7 @@ namespace WpfApp1
                     option_2Entities.GetContext().SaveChanges();
                     MessageBox.Show("Добавлены данные о состязании");
                     Manager.MainFrame.GoBack();
+
                 }
                 catch (Exception ex)
                 {

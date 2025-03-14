@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:rating.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\wpfapp1\\1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -23,15 +23,15 @@
       "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:pair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\wpfapp1\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\wpfapp1\\check_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\check_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:check_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|d:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\wpfapp1\\3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CC53899D-5CBF-45D1-BD04-1D060EE83848}|WpfApp1.csproj|solutionrelative:3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -120,8 +120,7 @@
               "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\1.xaml",
               "RelativeToolTip": "1.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-14T04:14:07.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T04:14:07.22Z"
             },
             {
               "$type": "Document",
@@ -132,8 +131,7 @@
               "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\add3.xaml",
               "RelativeToolTip": "add3.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-13T07:16:12.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T07:16:12.17Z"
             },
             {
               "$type": "Document",
@@ -144,8 +142,7 @@
               "ToolTip": "D:\\\u0442\u0435\u0445\u043D\u0438\u043A\u0443\u043C\\3 \u043A\u0443\u0440\u0441\\\u0438\u043D\u0442\u0435\u043B\u043B\u0435\u043A\u0442\u0443\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0438\u0441\u0442\u0435\u043C\u044B \u0438 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438\\\u0434\u0435\u043C\u043E\u044D\u043A\u0437\u0430\u043C\u0435\u043D\\WpfApp1\\3.xaml",
               "RelativeToolTip": "3.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-11T12:59:56.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T12:59:56.759Z"
             },
             {
               "$type": "Document",
@@ -198,7 +195,7 @@
         },
         {
           "DockedWidth": 155,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -210,6 +207,10 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T19:52:28.074Z",
               "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
@@ -234,8 +235,7 @@
               "RelativeToolTip": "participant.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T04:24:37.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T04:24:37.384Z"
             },
             {
               "$type": "Document",
@@ -247,12 +247,7 @@
               "RelativeToolTip": "check_in.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T04:24:13.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2025-03-14T04:24:13.106Z"
             },
             {
               "$type": "Document",
@@ -276,8 +271,7 @@
               "RelativeToolTip": "3.xaml.cs",
               "ViewState": "AgIAAFQAAAAAAAAAAAAnwFgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:48:47.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T13:48:47.718Z"
             }
           ]
         }

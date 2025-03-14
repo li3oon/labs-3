@@ -11,14 +11,45 @@ namespace WpfApp1
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.Linq;
+
     public partial class participant
     {
         public int id_pair { get; set; }
         public int id_check_in { get; set; }
         public Nullable<decimal> time_participants { get; set; }
         public Nullable<int> place_participants { get; set; }
-    
+
+        public string name_h1
+        {
+            get
+            {
+                var n_h1 = option_2Entities.GetContext().pairs.ToList();
+
+                return n_h1.First(p => p.id == this.id_pair).name_h;
+            }
+        }
+
+        public string name_j1
+        {
+            get
+            {
+                var n_j1 = option_2Entities.GetContext().pairs.ToList();
+
+                return n_j1.First(p => p.id == this.id_pair).name_j;
+            }
+        }
+
+        public string name_comp1
+        {
+            get
+            {
+                var name_c1 = option_2Entities.GetContext().check_in.ToList();
+
+                return name_c1.First(p => p.id == this.id_check_in).name_comp;
+            }
+        }
+
         public virtual check_in check_in { get; set; }
         public virtual pair pair { get; set; }
     }

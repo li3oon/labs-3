@@ -55,7 +55,7 @@ namespace WpfApp1
                 errors.AppendLine("Введите наименование состязания");
             if ((_currentcomp.date_competition == null) || (_currentcomp.date_competition < t1) || (_currentcomp.date_competition > t2))
                 errors.AppendLine("Введите/укажите дату состязания");
-            if ((_currentcomp.time_competition == null) || (TimeSpan.Parse("08:00") < _currentcomp.time_competition) || (TimeSpan.Parse("19:00") > _currentcomp.time_competition))
+            if ((_currentcomp.time_competition == null) /*|| (TimeSpan.Parse("08:00") >= time) || (TimeSpan.Parse("19:00") >= time) ограничение рабочего дня*/)
                 errors.AppendLine("Введите время состязания");
             if (string.IsNullOrEmpty(_currentcomp.hippodrome))
                 errors.AppendLine("Введите ипподром");

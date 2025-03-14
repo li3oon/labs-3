@@ -11,7 +11,8 @@ namespace WpfApp1
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.Linq;
+
     public partial class check_in
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -22,7 +23,17 @@ namespace WpfApp1
     
         public int id { get; set; }
         public int id_competition { get; set; }
-    
+
+        public string name_comp
+        {
+            get
+            {
+                var name_c = option_2Entities.GetContext().competitions.ToList();
+
+                return name_c.First(p => p.id == this.id_competition).name_competition;
+            }
+        }
+
         public virtual competition competition { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<participant> participants { get; set; }

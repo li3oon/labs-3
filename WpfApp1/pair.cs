@@ -11,7 +11,8 @@ namespace WpfApp1
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.Linq;
+
     public partial class pair
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -23,7 +24,27 @@ namespace WpfApp1
         public int id { get; set; }
         public int id_horse { get; set; }
         public int id_jockey { get; set; }
-    
+
+        public string name_h
+        {
+            get
+            {
+                var n_h = option_2Entities.GetContext().horses.ToList();
+
+                return n_h.First(p => p.id == this.id_horse).name_horse;
+            }
+        }
+
+        public string name_j
+        {
+            get
+            {
+                var n_j = option_2Entities.GetContext().jockeys.ToList();
+
+                return n_j.First(p => p.id == this.id_jockey).name_jockey;
+            }
+        }
+
         public virtual horse horse { get; set; }
         public virtual jockey jockey { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

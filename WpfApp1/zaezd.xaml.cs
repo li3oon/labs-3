@@ -23,6 +23,45 @@ namespace WpfApp1
         public zaezd()
         {
             InitializeComponent();
+            DGridpart.ItemsSource = option_2Entities.GetContext().participants.ToList();
         }
+
+        
+
+
+        /*private void btn25(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn26(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn27(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_MouseEnter(object sender, MouseEventArgs e)
+        {
+            (sender as Button).Background = Brushes.LightGray;
+        }
+
+        private void Button_MouseLeave(object sender, MouseEventArgs e)
+        {
+            (sender as Button).Background = Brushes.LightGray;
+        }
+
+        private void Page_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+            if (Visibility == Visibility.Visible)
+            {
+                option_2Entities.GetContext().ChangeTracker.Entries().ToList().ForEach(p => p.Reload());
+                DGridhorses.ItemsSource = option_2Entities.GetContext().horses.ToList();
+
+            }
+        }*/
     }
 }

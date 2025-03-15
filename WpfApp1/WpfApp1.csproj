@@ -70,6 +70,9 @@
     <Compile Include="rating.xaml.cs">
       <DependentUpon>rating.xaml</DependentUpon>
     </Compile>
+    <Compile Include="zaez1.xaml.cs">
+      <DependentUpon>zaez1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="zaezd.xaml.cs">
       <DependentUpon>zaezd.xaml</DependentUpon>
     </Compile>
@@ -173,6 +176,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="rating.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="zaez1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

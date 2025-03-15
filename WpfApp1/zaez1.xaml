@@ -1,0 +1,48 @@
+﻿<Page x:Class="WpfApp1.zaez1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Добавление/редактирование заезда" FontFamily="Cascadia Code" FontSize="14" Foreground="White">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="325"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Номер заезда" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+        <TextBox Text="{Binding check_in}" Width="325" MaxLength="3" Grid.Column="1" HorizontalAlignment="Left"></TextBox>
+
+        <TextBlock Grid.Row="1" Text="Наименование состязания" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+        <ComboBox SelectedItem="{Binding competition}" Width="325" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" x:Name="Combo1" DisplayMemberPath="name_competition"></ComboBox>
+
+
+        <TextBlock Grid.Row="2" Text="Жокей" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+        <ComboBox Text="{Binding jockey}"  Width="325" Grid.Row="2" Grid.Column="1" x:Name="Combo2" DisplayMemberPath="name_jockey"></ComboBox>
+
+        <TextBlock Grid.Row="3" Text="Лошадь" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+        <ComboBox Text="{Binding horse}" Width="325" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" x:Name="Combo3" DisplayMemberPath="name_horse"></ComboBox>
+
+        <TextBlock Grid.Row="4" Text="Время" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+        <TextBox Text="{Binding time_participant}" Width="325" MaxLength="4" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left"></TextBox>
+
+        <TextBlock Grid.Row="5" Text="Занятое место" HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+        <TextBox Text="{Binding place_participants}" Width="325" MaxLength="2" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left"></TextBox>
+
+
+        <Button Click="btn28" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Content="Сохранить" Name="save" Width="100" HorizontalAlignment="Center" Grid.Row="6" Grid.Column="2" VerticalAlignment="Top"></Button>
+    </Grid>
+</Page>

@@ -26,7 +26,7 @@ namespace WpfApp1
         public string name_horse { get; set; }
         public string sex { get; set; }
         public Nullable<int> age { get; set; }
-    
+
         public string owner_name
         {
             get

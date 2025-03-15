@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Скачки" Height="450" Width="800" FontFamily="Cascadia Code" FontSize="14" Icon="1/1.ico">
+        Title="Скачки" Height="580" Width="800" FontFamily="Cascadia Code" FontSize="14" Icon="1/1.ico">
     <Window.Background>
         <ImageBrush ImageSource="1/6.jpg"/>
     </Window.Background>

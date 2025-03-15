@@ -69,12 +69,12 @@ namespace WpfApp1
 
         private void Page_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)
         {
-            if (Visibility == Visibility.Visible)
+            /*if (Visibility == Visibility.Visible)
             {
                 option_2Entities.GetContext().ChangeTracker.Entries().ToList().ForEach(p => p.Reload());
                 DGridhorses.ItemsSource = option_2Entities.GetContext().horses.ToList();
 
-            }
+            }*/
         }
     }
 }

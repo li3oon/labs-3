@@ -26,9 +26,6 @@ namespace WpfApp1
             DGridpart.ItemsSource = option_2Entities.GetContext().participants.ToList();
         }
 
-        
-
-
         /*private void btn25(object sender, RoutedEventArgs e)
         {
 
@@ -36,12 +33,32 @@ namespace WpfApp1
 
         private void btn26(object sender, RoutedEventArgs e)
         {
+            Manager.MainFrame.Navigate(new zaez1(null,null));
 
         }
 
         private void btn27(object sender, RoutedEventArgs e)
         {
+            var partRemoving = DGridpart.SelectedItems.Cast<participant>().ToList();
+            
 
+            if (MessageBox.Show($"Вы точно хотите удалить следующие {partRemoving.Count()} элементы?", "Внимание",
+                MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
+            {
+                try
+                {
+                    option_2Entities.GetContext().participants.RemoveRange(partRemoving);
+                    option_2Entities.GetContext().SaveChanges();
+                    MessageBox.Show("Данные удалены");
+
+                    DGridpart.ItemsSource = option_2Entities.GetContext().participants.ToList();
+
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message.ToString());
+                }
+            }
         }
 
         private void Button_MouseEnter(object sender, MouseEventArgs e)

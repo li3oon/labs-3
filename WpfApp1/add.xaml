@@ -29,7 +29,7 @@
         <TextBlock Text="Нового владельца" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Top"></TextBlock>
 
         <TextBox Text="{Binding name_horse}" Width="325" MaxLength="100" Grid.Column="1" HorizontalAlignment="Left"></TextBox>
-        <TextBox Text="{Binding sex}" Width="110" MaxLength="3" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left"></TextBox>
+        <TextBox Name="stri" Text="{Binding sex}" Width="110" MaxLength="3" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left"></TextBox>
 
         <TextBox Text="{Binding age}" Width="325" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left"></TextBox>
 

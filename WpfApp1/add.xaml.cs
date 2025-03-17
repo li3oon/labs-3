@@ -40,6 +40,7 @@ namespace WpfApp1
         private void btn8(object sender, RoutedEventArgs e)
         {
             StringBuilder errors = new StringBuilder();
+            //_currenthorse.sex = Convert.ToString(stri.Text);
 
             if (string.IsNullOrWhiteSpace(_currenthorse.name_horse))
                 errors.AppendLine("Введите кличку лошади");
